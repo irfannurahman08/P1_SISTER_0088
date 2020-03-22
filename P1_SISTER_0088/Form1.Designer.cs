@@ -69,6 +69,7 @@
             this.buttonDell.TabIndex = 23;
             this.buttonDell.Text = "Delete";
             this.buttonDell.UseVisualStyleBackColor = true;
+            this.buttonDell.Click += new System.EventHandler(this.buttonDell_Click);
             // 
             // buttonAdd
             // 
@@ -78,6 +79,7 @@
             this.buttonAdd.TabIndex = 22;
             this.buttonAdd.Text = "Add";
             this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonLast
             // 
@@ -87,6 +89,7 @@
             this.buttonLast.TabIndex = 21;
             this.buttonLast.Text = "Last";
             this.buttonLast.UseVisualStyleBackColor = true;
+            this.buttonLast.Click += new System.EventHandler(this.buttonLast_Click);
             // 
             // buttonNext
             // 
@@ -96,6 +99,7 @@
             this.buttonNext.TabIndex = 20;
             this.buttonNext.Text = "Next";
             this.buttonNext.UseVisualStyleBackColor = true;
+            this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
             // 
             // buttonPrev
             // 
@@ -105,6 +109,7 @@
             this.buttonPrev.TabIndex = 19;
             this.buttonPrev.Text = "Prev";
             this.buttonPrev.UseVisualStyleBackColor = true;
+            this.buttonPrev.Click += new System.EventHandler(this.buttonPrev_Click);
             // 
             // buttonFirst
             // 
@@ -114,6 +119,7 @@
             this.buttonFirst.TabIndex = 18;
             this.buttonFirst.Text = "Frist";
             this.buttonFirst.UseVisualStyleBackColor = true;
+            this.buttonFirst.Click += new System.EventHandler(this.buttonFirst_Click);
             // 
             // textBoxAlamat
             // 
@@ -130,6 +136,7 @@
             this.buttonExit.TabIndex = 19;
             this.buttonExit.Text = "Exit";
             this.buttonExit.UseVisualStyleBackColor = true;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
             // buttonSave
             // 
@@ -139,6 +146,7 @@
             this.buttonSave.TabIndex = 18;
             this.buttonSave.Text = "Save";
             this.buttonSave.UseVisualStyleBackColor = true;
+            this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
             // 
             // buttonOpen
             // 
@@ -148,6 +156,7 @@
             this.buttonOpen.TabIndex = 17;
             this.buttonOpen.Text = "Open";
             this.buttonOpen.UseVisualStyleBackColor = true;
+            this.buttonOpen.Click += new System.EventHandler(this.buttonOpen_Click);
             // 
             // textBoxNama
             // 
@@ -226,6 +235,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "RIYAN WIJAYANTO 18.11.0074";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
